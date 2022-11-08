@@ -1,0 +1,11 @@
+xst -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -ifn Circuit_PLL.xst -ofn Circuit_PLL.syr
+xst -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -ifn Circuit_PLL.xst -ofn Circuit_PLL.syr
+xst -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -ifn Circuit_PLL.xst -ofn Circuit_PLL.syr
+xst -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -ifn Circuit_PLL.xst -ofn Circuit_PLL.syr
+xst -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -ifn Circuit_PLL.xst -ofn Circuit_PLL.syr
+xst -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -ifn Circuit_PLL.xst -ofn Circuit_PLL.syr
+xst -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -ifn Circuit_PLL.xst -ofn Circuit_PLL.syr
+ngdbuild -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "Circuit_PLL.ngc" Circuit_PLL.ngd
+map -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o Circuit_PLL_map.ncd Circuit_PLL.ngd Circuit_PLL.pcf
+par -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -w -intstyle ise -ol std -t 1 Circuit_PLL_map.ncd Circuit_PLL.ncd Circuit_PLL.pcf
+trce -ise "E:/TP_VHDL/Circuit_PLL/Circuit_PLL.ise" -intstyle ise -e 3 -s 4 -xml Circuit_PLL Circuit_PLL.ncd -o Circuit_PLL.twr Circuit_PLL.pcf

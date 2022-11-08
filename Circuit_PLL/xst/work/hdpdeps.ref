@@ -1,0 +1,8 @@
+V3 9
+FL E:/TP_VHDL/Circuit_PLL/Circuit_PLL.vhd 2019/03/08.14:49:08 J.36
+EN work/Circuit_PLL 1552053762 FL E:/TP_VHDL/Circuit_PLL/Circuit_PLL.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583 LB UNISIM PH unisim/VCOMPONENTS 1177545586
+AR work/Circuit_PLL/Behavioral 1552053763 \
+      FL E:/TP_VHDL/Circuit_PLL/Circuit_PLL.vhd EN work/Circuit_PLL 1552053762 \
+      CP IBUFG CP CLKDLL CP BUFG CP SRL16 CP OBUF

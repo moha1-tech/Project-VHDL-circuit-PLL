@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="LIT" num="243" delta="unknown" >Logical network <arg fmt="%s" index="1">N1</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="395" delta="unknown" >The above <arg fmt="%s" index="1">warning</arg> message <arg fmt="%s" index="2">base_net_load_rule</arg> is repeated <arg fmt="%d" index="3">34</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="4">CLK_DLL_COPY1/CLK0,
+CLK_DLL_COPY1/CLK90,
+CLK_DLL_COPY1/CLK180,
+CLK_DLL_COPY1/CLK270,
+CLK_DLL_COPY1/CLK2X180</arg>
+To see the details of these <arg fmt="%s" index="5">warning</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="863" delta="unknown" >The following Virtex BUFG(s) is/are being retargeted to Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+<arg fmt="%s" index="1">BUFG symbol &quot;BUFG_COPY1&quot; (output signal=PLL2x_OBUF),
+BUFG symbol &quot;BUFG_COPY2&quot; (output signal=PLL4x_OBUF)</arg>
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="unknown" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs in the schematic.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="739" delta="unknown" >Unexpected DCM feedback loop. The signal <arg fmt="%s" index="1">PLL2x_OBUF</arg> on the CLKFB pin of comp <arg fmt="%s" index="2">CLK_DLL_COPY2/DCM_SP</arg> is not driven by an IOB or BUFGMUX therefore the phase relationship of output clocks to CLKIN cannot be guaranteed.
+</msg>
+
+</messages>
+
